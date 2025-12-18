@@ -1,0 +1,22 @@
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "productid": 1,
+  "productname": "cococ",
+  "priceproduct" : 25.0,
+  "cost" : 1000.0,
+  "info" : "รวย"
+}
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "productid": 123,
+  "productname": "cococ",
+  "priceproduct" : 25.0,
+  "cost" : 1000.0,
+  "info" : "รวย"
+}
